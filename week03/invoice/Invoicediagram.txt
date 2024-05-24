@@ -1,0 +1,22 @@
++--------------------------------------+
+|              Invoice                 |
++--------------------------------------+
+| - partNumber: String                 |
+| - partDescription: String            |
+| - quantity: int                      |
+| - pricePerItem: double               |
++--------------------------------------+
+| + Invoice(partNumber: String,        |
+|   partDescription: String,           |
+|   quantity: int, pricePerItem: double)|
+| + setPartNumber(partNumber: String)  |
+| + getPartNumber(): String            |
+| + setPartDescription(description:    |
+|   String)                            |
+| + getPartDescription(): String       |
+| + setQuantity(quantity: int)         |
+| + getQuantity(): int                 |
+| + setPricePerItem(price: double)     |
+| + getPricePerItem(): double          |
+| + getInvoiceAmount(): double         |
++--------------------------------------+

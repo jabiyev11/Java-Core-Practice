@@ -1,0 +1,23 @@
++--------------------------------------+
+|             CustomDate               |
++--------------------------------------+
+| - month: int                         |
+| - day: int                           |
+| - year: int                          |
++--------------------------------------+
+| + CustomDate(month: int, day: int,   |
+|   year: int)                         |
+| + setMonth(month: int): void         |
+| + getMonth(): int                    |
+| + setDay(day: int): void             |
+| + getDay(): int                      |
+| + setYear(year: int): void           |
+| + getYear(): int                     |
+| + displayDate(): void                |
+| + difference(date: CustomDate): long |
+| + compare(date1: CustomDate,         |
+|   date2: CustomDate): int            |
+| + displayFormatted(): void           |
+| - isValidDate(month: int, day: int,  |
+|   year: int): boolean                |
++--------------------------------------+
